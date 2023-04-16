@@ -1,52 +1,105 @@
-@charset "utf-8";
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
 body {
-margin: 0;
+  line-height: 1;
 }
-.clearfix::after {
-content: "";
-display: block;
-clear: both;
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+  display: block;
 }
-.clear_box {
-clear: none;
+
+nav ul {
+  list-style: none;
 }
-.red--box {
-width: 400px;
-height: 100px;
-background: #ff0000;
+
+blockquote,
+q {
+  quotes: none;
 }
-.green--box {
-width: 150px;
-height: 250px;
-background: #00ff51;
-float: left;
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
 }
-.pink--box {
-width: 150px;
-height: 50px;
-background: #cc00db;
-float: left;
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
 }
-.blue--box {
-width: 150px;
-height: 100px;
-background: #0093b7;
-float: left;
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
 }
-.orange--box {
-width: 100px;
-height: 150px;
-background: #ff9e6b;
-float: left;
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
 }
-.brown--box {
-width: 250px;
-height: 100px;
-background: #8e2727;
-float: left;
+
+del {
+  text-decoration: line-through;
 }
-.yellow--box {
-width: 400px;
-height: 100px;
-background: #fff700;
+
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input,
+select {
+  vertical-align: middle;
 }
